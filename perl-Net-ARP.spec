@@ -54,7 +54,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes README
 %{perl_vendorarch}/Net/*.pm
-#%dir %{perl_vendorarch}/auto/Net/ARP
-#%{perl_vendorarch}/auto/Net/ARP/*.bs
-#%attr(755,root,root) %{perl_vendorarch}/auto/Net/ARP/*.so
+%dir %{perl_vendorarch}/auto/Net/ARP
+%{perl_vendorarch}/auto/Net/ARP/ARP.bs
+%attr(755,root,root) %{perl_vendorarch}/auto/Net/ARP/ARP.so
 %{_mandir}/man3/*
