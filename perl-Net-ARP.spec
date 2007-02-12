@@ -6,7 +6,7 @@
 %define	pdir	Net
 %define	pnam	ARP
 Summary:	Perl extension for creating ARP packets
-Summary(pl):	Rozszerzenie Perla do tworzenia pakietÛw ARP
+Summary(pl.UTF-8):   Rozszerzenie Perla do tworzenia pakiet√≥w ARP
 Name:		perl-Net-ARP
 Version:	0.8
 Release:	1
@@ -26,8 +26,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This module can be used to create and send ARP packets and to get the
 MAC address of an ethernet interface or IP address.
 
-%description -l pl
-Ten modu≥ moøe byÊ uøyty do stworzenia i wys≥ania pakietÛw ARP oraz do
+%description -l pl.UTF-8
+Ten modu≈Ç mo≈ºe byƒá u≈ºyty do stworzenia i wys≈Çania pakiet√≥w ARP oraz do
 pobrania adresu MAC interfejsu sieciowego lub adresu IP.
 
 %prep
