@@ -6,7 +6,7 @@
 %define	pdir	Net
 %define	pnam	ARP
 Summary:	Perl extension for creating ARP packets
-Summary(pl.UTF-8):   Rozszerzenie Perla do tworzenia pakietów ARP
+Summary(pl.UTF-8):	Rozszerzenie Perla do tworzenia pakietów ARP
 Name:		perl-Net-ARP
 Version:	0.8
 Release:	1
