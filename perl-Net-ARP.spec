@@ -13,8 +13,9 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tgz
+Source0:	http://www.cpan.org/modules/by-module/Net/%{pdir}-%{pnam}-%{version}.tgz
 # Source0-md5:	25296f666fba47bf673a4e1736d1291f
+URL:		http://search.cpan.org/dist/Net-ARP/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
@@ -27,8 +28,8 @@ This module can be used to create and send ARP packets and to get the
 MAC address of an ethernet interface or IP address.
 
 %description -l pl.UTF-8
-Ten moduł może być użyty do stworzenia i wysłania pakietów ARP oraz do
-pobrania adresu MAC interfejsu sieciowego lub adresu IP.
+Ten moduł może być użyty do tworzenia i wysłania pakietów ARP oraz do
+uzyskiwania adresu MAC interfejsu sieciowego lub adresu IP.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}
