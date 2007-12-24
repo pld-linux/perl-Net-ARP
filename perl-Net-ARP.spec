@@ -8,13 +8,13 @@
 Summary:	Perl extension for creating ARP packets
 Summary(pl.UTF-8):	Rozszerzenie Perla do tworzenia pakietów ARP
 Name:		perl-Net-ARP
-Version:	0.8
+Version:	1.0.1
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tgz
-# Source0-md5:	47214ca439a339ab405d65c7790d5b68
+# Source0-md5:	25296f666fba47bf673a4e1736d1291f
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
