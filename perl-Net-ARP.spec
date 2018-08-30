@@ -9,7 +9,7 @@ Summary:	Perl extension for creating ARP packets
 Summary(pl.UTF-8):	Rozszerzenie Perla do tworzenia pakietów ARP
 Name:		perl-Net-ARP
 Version:	1.0.6
-Release:	11
+Release:	12
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
