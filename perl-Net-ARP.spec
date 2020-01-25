@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_with	tests		# perform "make test" (requires uid 0)
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	Net
 %define	pnam	ARP
 Summary:	Perl extension for creating ARP packets
