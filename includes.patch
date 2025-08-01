@@ -1,0 +1,10 @@
+--- Net-ARP/arp_lookup_linux.c.orig	2009-05-24 17:38:59.000000000 +0200
++++ Net-ARP/arp_lookup_linux.c	2025-08-02 01:02:20.273846865 +0200
+@@ -27,6 +27,7 @@
+ #include <netinet/in.h>
+ #include <arpa/inet.h>
+ #include <net/if_arp.h>
++#include <unistd.h>
+ 
+ /*
+  * Search for a hardware address linked to an IP address on a device

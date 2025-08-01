@@ -14,6 +14,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Net/%{pdir}-%{pnam}-%{version}.tgz
 # Source0-md5:	1b71124347f23f951b96e86826af8562
+Patch0:		includes.patch
 URL:		http://search.cpan.org/dist/Net-ARP/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -32,6 +33,7 @@ uzyskiwania adresu MAC interfejsu sieciowego lub adresu IP.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}
+%patch -P0 -p1
 
 %build
 %{__perl} Makefile.PL \
